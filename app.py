@@ -13,7 +13,7 @@ st.markdown(
 
 # Barra lateral para controles interactivos
 st.sidebar.header("Parámetros de Simulación")
-n_muestras = st.sidebar.slider("Número de registros de logs:", min_features=100, max_value=1000, value=600, step=50)
+n_muestras = st.sidebar.slider("Número de registros de logs:", min_value=100, max_value=1000, value=600, step=50)
 
 
 # 1. Generación de datos
